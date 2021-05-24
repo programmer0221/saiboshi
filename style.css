@@ -1,0 +1,116 @@
+.header {
+    background-color: yellowgreen;
+    height: 85px;
+    overflow-x: scroll;    
+}
+.logo img {
+    margin-left: 20px;
+    margin-top: auto;
+    width: auto;
+}
+.container {
+    overflow: scroll;
+}
+.sidebar {    
+    min-width: 150px;
+    color: #ffffff;    
+    text-align: center;    
+    border-color: #ffffff;
+}
+.side_title {
+    background-color: rgba(114, 114, 114, 0.726);
+    border: 1px solid;
+}
+.side_title h1 {
+    font-size: 15px;
+    font-family: 'MS 明朝', serif;
+    line-height: 20px;
+}
+.side_title h2 {
+    font-size: 10px;
+    font-family: "MS ゴシック", sans-serif;
+    line-height: 15px;
+}
+.sidebar_menu li {
+    background: linear-gradient(rgb(200, 10, 10), rgb(255, 130, 130)) fixed;
+    text-align: center;
+    border: 1px solid;
+    border-color: #ffffff;    
+}
+.sidebar_menu li a {
+    text-decoration: none;    
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'MS 明朝', serif;
+    line-height: 20px;
+}
+.sidebar_menu li p {
+    font-size: 10px;
+    font-family: "MS ゴシック", sans-serif;
+    line-height: 15px;
+}
+.sidebar_menu :hover {
+    opacity: 0.7;
+}
+.container {
+    display: flex;
+    padding: 5px 5px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: 50px;
+}
+.main {
+    margin-left: 50px;
+    display: flex;
+}
+.contents {
+    max-width: 750px;
+}
+.main_visual :hover {
+    opacity: 0.7;
+}
+.main_visual img {
+    width: 750px;
+}
+.saiboshi {
+    margin-top: 15px;
+}
+.saiboshi h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+.saiboshi_explanation {
+    margin-top: 15px;
+    display: flex;
+}
+.saiboshi_explanation img {
+    width: 200px;
+    height: 200px;
+}
+.saiboshi_explanation p {
+    font-size: 20px;
+}
+.infomation {
+    margin-top: 10px;
+}
+.side {
+    padding-right: auto;
+    margin-left: 50px;
+    width: 350px;
+}
+.products {
+    list-style: none;
+    display: grid;
+    row-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.products li {
+    vertical-align: middle;
+}
+.products img {
+    width: 160px;
+    height: 100px;
+}
+.products a {
+    font-size: 20px;    
+}
